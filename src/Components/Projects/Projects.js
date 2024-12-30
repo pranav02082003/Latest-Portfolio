@@ -3,8 +3,8 @@ import '../../Components/Projects/Projects.css'
 import ProjectCard from './ProjectCard'
 import { motion } from 'framer-motion'
 import HospitalImg from '../../Assets/Hospital.png'
-import Comparision from '../../Assets/Picsart_24-12-30_18-36-50-143-removebg-preview-removebg-preview.png'
-import Portfolio from '../../Assets/1000224279__1_-removebg-preview.png'
+import Comparision from '../../Assets/Comparision.png'
+import Portfolio from '../../Assets/Portfolio.png'
 
 export default function Projects() {
     return (
@@ -24,7 +24,6 @@ proficiency in MERN stack Web Development' ghlink='https://github.com/pranav0208
 React, CSS and Bootstrap frameworks. Designed and
 implemented various projects, showcasing my skill and
 interest in Web Development' ghlink='https://github.com/pranav02082003/Latest-Portfolio' viewlink='https://latest-portfolio-dvh5.onrender.com' />
-
             </div>
         </div>
     )
