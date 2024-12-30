@@ -3,6 +3,7 @@ import '../About/About.css'
 import HomeLogo from '../../Assets/home-main.svg'
 import Skills from './Skills'
 import { motion } from 'framer-motion'
+import Footer from '../Footer/Footer'
 
 export default function About() {
     return (
@@ -31,6 +32,7 @@ export default function About() {
                     <Skills />
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

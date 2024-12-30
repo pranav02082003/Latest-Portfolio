@@ -4,6 +4,7 @@ import Type from './Type'
 import myImg from '../../Assets/avatar.svg'
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion'
+import Footer from '../Footer/Footer';
 
 export default function Home() {
     return (
@@ -32,6 +33,7 @@ export default function Home() {
                     </div>
                 </motion.div>
             </div>
+            <Footer/>
         </div>
     )
 }
