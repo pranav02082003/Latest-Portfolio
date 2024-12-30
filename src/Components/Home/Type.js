@@ -4,11 +4,12 @@ import Typewriter from "typewriter-effect";
 function Type() {
     return (
         <div>
-            <h1 style={{ color: 'yellow', fontSize: '2rem' }}>
+            <h1 style={{ color: 'white', fontSize: '25px' }}>
                 <Typewriter
                     options={{
                         strings: [
-                            "I'M PRANAV"
+                            "I'M PRANAV DUNNA",
+                            "WELCOME TO MY PORTFOLIO"
                         ],
                         autoStart: true,
                         loop: true,

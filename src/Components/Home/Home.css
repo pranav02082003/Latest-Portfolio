@@ -10,8 +10,18 @@
 .heading-home {
     padding: 60px;
     padding-bottom: 20px;
+    padding-top: 0px;
+    font-size: xx-large;
+    overflow: hidden;
 }
 
+.typewriter-name{
+    font-size: 10px;
+}
+
+.motion{
+    overflow: hidden;
+}
 .main-content {
     text-align: center;
     font-weight: bold;
@@ -28,6 +38,8 @@
     padding: 10px;
 }
 
+
+
 .first-div {
     perspective: 1000px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -36,6 +48,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(184, 54, 54, 0.2);
     background-color: transparent;
+    overflow: hidden;
 }
 
 .first-div:hover {
