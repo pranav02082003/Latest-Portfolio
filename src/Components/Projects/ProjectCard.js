@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
                         <img className='projects-img' src={props.imgPath} alt="Hospital-Management" />
                     </div>
                     <div className='card-title'>
-                        <h3><span className='yellow'>{props.heading}</span></h3>
+                        <h4><span className='yellow'>{props.heading}</span></h4>
                     </div>
                     <div className='card-body'>
                         <span className='project-span'>{props.description}</span>
