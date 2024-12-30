@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.about-mainheading{
+    overflow: hidden;
+}
+
 .card-style{
     display: flex;
     align-items: center;
@@ -14,7 +18,11 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background-color: transparent;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.3 ease-in-out;
+}
+
+.projects-img{
+    width: 400px;
 }
 
 .card-style:hover{

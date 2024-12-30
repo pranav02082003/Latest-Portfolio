@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {motion} from 'framer-motion'
+import '../../Components/Projects/Projects.css'
 
 export default function ProjectCard(props) {
     return (
         <div>
             <div className='project-maindiv'>
-                <div className='card card-style'>
+                <motion.div initial={{ y: "50px", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-50px", opacity: 0, transition: { duration: 0.25, ease: "easeInOut", delay: 0 } }} transition={{ duration: 0.75, ease: "easeInOut" }} className='card card-style'>
                     <div>
-                        <img src={props.imgPath} alt="Hospital-Management" />
+                        <img className='projects-img' src={props.imgPath} alt="Hospital-Management" />
                     </div>
                     <div className='card-title'>
-                        <h3>{props.heading}</h3>
+                        <h3><span className='yellow'>{props.heading}</span></h3>
                     </div>
                     <div className='card-body'>
                         <span className='project-span'>{props.description}</span>
@@ -21,7 +23,7 @@ export default function ProjectCard(props) {
                         </svg> Github</button></Link>
                         <Link to={props.viewlink}><button className='projects-button'>View</button> </Link>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
