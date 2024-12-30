@@ -9,7 +9,7 @@ export default function About() {
     return (
         <div>
             <div>
-                <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-100%" }} transition={{ duration: 0.25 }} delay={0} className='about-mainheading'>ABOUT ME</motion.h1>
+                <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-100%" }} transition={{ duration: 0.25 }} delay={0} className='about-mainheading'>ABOUT<span className='yellow'> ME</span></motion.h1>
                 <motion.div initial={{ y: "50px", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-50px", opacity: 0, transition: { duration: 0.25, ease: "easeInOut", delay: 0 } }} transition={{ duration: 0.75, ease: "easeInOut" }} className='about-firstdiv'>
                     <div className='first-div card box-shadow about-card'>
                         <h3 className='main-content card-text '>KNOW WHO <span className='yellow'>I'M </span></h3>
@@ -25,14 +25,14 @@ export default function About() {
                 </motion.div>
             </div>
             <div>
-                <div  className='about-mainheading'>
+                <div className='about-mainheading'>
                     <h1>PROFESSIONAL <span className='yellow'>SKILLSET</span></h1>
                 </div>
                 <div>
                     <Skills />
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
