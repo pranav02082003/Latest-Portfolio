@@ -2,13 +2,13 @@ import React from 'react'
 import '../About/About.css'
 import HomeLogo from '../../Assets/home-main.svg'
 import Skills from './Skills'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export default function About() {
     return (
         <div>
             <div>
-                <motion.h1 initial={{y:"100%"}} animate={{y:0}} exit={{y:"-100%"}} transition={{duration:0.25}} delay={0} className='about-mainheading'>ABOUT ME</motion.h1>
+                <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-100%" }} transition={{ duration: 0.25 }} delay={0} className='about-mainheading'>ABOUT ME</motion.h1>
                 <motion.div initial={{ y: "50px", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-50px", opacity: 0, transition: { duration: 0.25, ease: "easeInOut", delay: 0 } }} transition={{ duration: 0.75, ease: "easeInOut" }} className='about-firstdiv'>
                     <div className='first-div card box-shadow about-card'>
                         <h3 className='main-content card-text '>KNOW WHO <span className='yellow'>I'M </span></h3>
@@ -24,10 +24,12 @@ export default function About() {
                 </motion.div>
             </div>
             <div>
-            <h1 className='about-mainheading'>PROFESSIONAL<span className='yellow'> SKILLSET</span></h1>
-            <div>
-                <Skills/>
-            </div>
+                <div  className='about-mainheading'>
+                    <h1>PROFESSIONAL <span className='yellow'>SKILLSET</span></h1>
+                </div>
+                <div>
+                    <Skills />
+                </div>
             </div>
         </div>
     )

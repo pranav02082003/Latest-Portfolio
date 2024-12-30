@@ -1,0 +1,31 @@
+.project-maindiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-style{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.card-style:hover{
+    transform: scale(1.1);
+}
+
+.projects-button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    width: 80px;
+}
