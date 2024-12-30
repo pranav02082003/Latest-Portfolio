@@ -1,9 +1,10 @@
 import React from 'react'
 import '../../Components/Projects/Projects.css'
 import ProjectCard from './ProjectCard'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import HospitalImg from '../../Assets/Hospital.png'
-import Comparision from '../../Assets/Picsart_24-12-30_18-36-50-143-removebg-preview.png'
+import Comparision from '../../Assets/Picsart_24-12-30_18-36-50-143-removebg-preview-removebg-preview.png'
+import Portfolio from '../../Assets/1000224279__1_-removebg-preview.png'
 
 export default function Projects() {
     return (
@@ -16,10 +17,14 @@ export default function Projects() {
 web application using MERN stack. Proficiently implemented
 CRUD operations, establishing a dynamic platform for
 seamless experiences through auctions.' ghlink='https://github.com/pranav02082003/Hospital-front-end' viewlink='https://hospital-management-h3r1.onrender.com/' />
-            <ProjectCard imgPath={Comparision} heading='Product Price Comparision' description='Designed a interactive website "Product Price Comparison" where we stored products in database and an API and
+                <ProjectCard imgPath={Comparision} heading='Product Price Comparision' description='Designed a interactive website "Product Price Comparison" where we stored products in database and an API and
 compares the price of the same products showcasing my
 proficiency in MERN stack Web Development' ghlink='https://github.com/pranav02082003/Comparison-front-end' viewlink='https://comparison-front-end.onrender.com/' />
-            
+                <ProjectCard imgPath={Portfolio} heading='Personal Portfolio' description='Created an interactive portfolio utilizing a combination of
+React, CSS and Bootstrap frameworks. Designed and
+implemented various projects, showcasing my skill and
+interest in Web Development' ghlink='https://github.com/pranav02082003/Latest-Portfolio' viewlink='https://latest-portfolio-dvh5.onrender.com' />
+
             </div>
         </div>
     )
