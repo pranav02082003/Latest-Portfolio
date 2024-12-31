@@ -4,6 +4,7 @@ import HomeLogo from '../../Assets/home-main.svg'
 import Skills from './Skills'
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
+import Education from './Education'
 
 export default function About() {
     return (
@@ -25,6 +26,10 @@ export default function About() {
                 </motion.div>
             </div>
             <div>
+            <div className='about-mainheading'>
+                <h1>My <span className='yellow'>Education</span></h1>
+                </div>
+                <div><Education /></div>
                 <div className='about-mainheading'>
                     <h1>PROFESSIONAL <span className='yellow'>SKILLSET</span></h1>
                 </div>
