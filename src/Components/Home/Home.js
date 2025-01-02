@@ -5,6 +5,7 @@ import myImg from '../../Assets/avatar.svg'
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer';
+import Contact from '../Contact/Contact';
 
 export default function Home() {
     return (
@@ -32,6 +33,9 @@ export default function Home() {
                         </Tilt>
                     </div>
                 </motion.div>
+            </div>
+            <div>
+                <Contact />
             </div>
             <Footer/>
         </div>

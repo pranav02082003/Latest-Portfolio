@@ -6,12 +6,13 @@ import HospitalImg from '../../Assets/Hospital.png'
 import Comparision from '../../Assets/Comparision.png'
 import Portfolio from '../../Assets/Portfolio.png'
 import Footer from '../Footer/Footer'
+import Contact from '../Contact/Contact'
 
 export default function Projects() {
     return (
         <div>
             <div className='about-mainheading'>
-                <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-100%" }} transition={{ duration: 0.5 }}> CHECK OUT MY <span className='yellow'>PROJECTS</span></motion.h1>
+                <motion.h1 initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-100%" }} transition={{ duration: 0.5 }}>MY <span className='yellow'>PROJECTS</span></motion.h1>
             </div>
             <div className='project-maindiv'>
                 <ProjectCard imgPath={HospitalImg} heading='Hospital Management' description='Developed an innovative "Hospital Management System " as a
@@ -25,6 +26,9 @@ proficiency in MERN stack Web Development' ghlink='https://github.com/pranav0208
 React, CSS and Bootstrap frameworks. Designed and
 implemented various projects, showcasing my skill and
 interest in Web Development' ghlink='https://github.com/pranav02082003/Latest-Portfolio' viewlink='https://latest-portfolio-dvh5.onrender.com' />
+            </div>
+            <div>
+                <Contact />
             </div>
             <Footer/>
         </div>

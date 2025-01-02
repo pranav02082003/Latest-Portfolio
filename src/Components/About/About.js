@@ -5,6 +5,7 @@ import Skills from './Skills'
 import { motion } from 'framer-motion'
 import Footer from '../Footer/Footer'
 import Education from './Education'
+import Contact from '../Contact/Contact'
 
 export default function About() {
     return (
@@ -36,6 +37,9 @@ export default function About() {
                 <div>
                     <Skills />
                 </div>
+            </div>
+            <div>
+                <Contact />
             </div>
             <Footer />
         </div>
