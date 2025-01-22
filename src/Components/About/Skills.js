@@ -40,9 +40,9 @@ export default function Skills() {
                     <div  className='skills-icons'>
                         <DiReact/>
                     </div>
-                    <div  className='skills-icons'>
+                    {/* <div  className='skills-icons'>
                         <DiNodejs/>
-                    </div>
+                    </div> */}
                     <div  className='skills-icons'>
                         <DiHtml5/>
                     </div>
